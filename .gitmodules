@@ -1,0 +1,6 @@
+[submodule "tribalreconnection-test"]
+	path = tribalreconnection-test
+	url = https://github.com/Whatsit2yaa/tribalreconnection-test.git
+[submodule "tribalreconnection/tribalCMS"]
+	path = tribalreconnection/tribalCMS
+	url = https://github.com/Whatsit2yaa/tribalreconnection-test.git
