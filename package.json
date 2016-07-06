@@ -17,7 +17,9 @@
     "karma": "node node_modules/karma/bin/karma start karma.conf.js",
     "test": "gulp test",
     "test-e2e": "gulp e2e.test",
-    "postinstall": "node tools/scripts/postinstall.js"
+    "postinstall": "node tools/scripts/postinstall.js",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "dependencies": {
     "angular": "^1.5.5",
@@ -28,7 +30,7 @@
     "angular-resource": "^1.5.2",
     "angular-route": "^1.5.2",
     "angular-sanitize": "^1.5.2",
-    "angular-ui-router": "^0.2.18",
+    "angular-ui-router": "0.3.1",
     "angular-ui-select": "^0.12.100",
     "body-parser": "latest",
     "bootstrap": "latest",
@@ -48,7 +50,8 @@
     "q": "latest",
     "request": "latest",
     "shelljs": "latest",
-    "view-helpers": "latest"
+    "view-helpers": "latest",
+    "snyk": "1.16.0"
   },
   "devDependencies": {
     "babel-core": "^6.7.2",
@@ -103,5 +106,6 @@
     "url-loader": "^0.5.7",
     "webpack": "^1.12.14",
     "webpack-dev-server": "^1.14.1"
-  }
+  },
+  "snyk": true
 }

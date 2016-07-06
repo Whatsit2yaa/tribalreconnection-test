@@ -1,5 +1,9 @@
 {
     "dependencies": {},
     "anonymizedData": true,
+<<<<<<< HEAD
     "name": "tribalReconnection"
+=======
+    "name": "mean"
+>>>>>>> a3a0c2b7ffe26a90d34b4684d007e158278bafd0
 }
